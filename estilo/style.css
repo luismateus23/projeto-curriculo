@@ -8,22 +8,28 @@
 }
 body{
     background: black url('../imagens/bg.jpg') top center no-repeat fixed ;
-    display: grid;
-    align-items: center;
-    justify-items: center;
+    background-size: cover;
+
     font-family: 'Source Code Pro', monospace;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-div#contanier{
-    display: inline-block;
+header{
+    
     align-items: center;
     background-color: #eee;
-    margin-top: 40px;
+    max-width: 600px;
+    display: block;
+    margin: auto;
     padding: 10px;
     border-radius: 20px;
     margin: 20px;
     margin-bottom: 80px;
     text-align: center;
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.493);
+    
 }
 .imagem-profile{
     border-radius: 50%;
@@ -58,7 +64,7 @@ main{
     margin: 50px;
     box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.521);
     max-width: 800px;
-    min-width: 350px;
+
 }
 .hdois{
     margin-top: 25px;
